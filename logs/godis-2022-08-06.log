@@ -1,0 +1,25 @@
+[INFO][server.go:37] 2022/08/06 14:09:04 start listen
+[INFO][server.go:62] 2022/08/06 14:09:15 accepted link
+[INFO][server.go:37] 2022/08/06 14:18:24 start listen
+[INFO][server.go:62] 2022/08/06 14:18:32 accepted link
+[ERROR][handler.go:94] 2022/08/06 14:20:20 require multi bulk reply
+[ERROR][handler.go:94] 2022/08/06 14:20:20 require multi bulk reply
+[INFO][server.go:37] 2022/08/06 15:08:14 start listen
+[INFO][server.go:62] 2022/08/06 15:08:42 accepted link
+[ERROR][parser.go:42] 2022/08/06 15:11:03 goroutine 34 [running]:
+runtime/debug.Stack(0xc000049ba8, 0xb944a0, 0xc00009c018)
+	D:/Program Files/GO/src/runtime/debug/stack.go:24 +0xa5
+go_redis_write/resp/parser.parse0.func1()
+	C:/Users/DELL/Desktop/go redis write/resp/parser/parser.go:42 +0x4d
+panic(0xb944a0, 0xc00009c018)
+	D:/Program Files/GO/src/runtime/panic.go:965 +0x1c7
+go_redis_write/resp/parser.readLine(0xc000086120, 0xc000049f20, 0x0, 0x0, 0x0, 0x0, 0xbcddb8, 0xc00008a030)
+	C:/Users/DELL/Desktop/go redis write/resp/parser/parser.go:160 +0x3e5
+go_redis_write/resp/parser.parse0(0x2ad611b4008, 0xc00021e000, 0xc000090000)
+	C:/Users/DELL/Desktop/go redis write/resp/parser/parser.go:52 +0xf5
+created by go_redis_write/resp/parser.ParseStream
+	C:/Users/DELL/Desktop/go redis write/resp/parser/parser.go:34 +0x78
+
+[INFO][server.go:45] 2022/08/06 15:12:01 shutting down
+[INFO][handler.go:109] 2022/08/06 15:12:01 handler shutting down...
+[ERROR][main.go:46] 2022/08/06 21:20:37 listen tcp 0.0.0.0:6379: bind: Only one usage of each socket address (protocol/network address/port) is normally permitted.

@@ -1,0 +1,13 @@
+[INFO][server.go:37] 2022/08/05 16:21:05 start listen
+[INFO][server.go:62] 2022/08/05 16:21:31 accepted link
+[ERROR][handler.go:93] 2022/08/05 16:24:23 require multi bulk reply
+[ERROR][handler.go:93] 2022/08/05 16:24:23 require multi bulk reply
+[ERROR][handler.go:93] 2022/08/05 16:24:23 require multi bulk reply
+[INFO][server.go:37] 2022/08/05 16:25:01 start listen
+[INFO][server.go:62] 2022/08/05 16:25:01 accepted link
+[INFO][handler.go:74] 2022/08/05 16:25:03 connection closed: 127.0.0.1:8563
+[INFO][server.go:62] 2022/08/05 16:25:04 accepted link
+[INFO][server.go:37] 2022/08/05 23:21:19 start listen
+[INFO][server.go:62] 2022/08/05 23:21:34 accepted link
+[INFO][server.go:37] 2022/08/05 23:24:12 start listen
+[INFO][server.go:62] 2022/08/05 23:24:14 accepted link
